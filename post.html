@@ -22,19 +22,19 @@
 <!--==============================NAVBAR=========================================-->
 <nav>
     <div class="container nav__container">
-        <a href="index.php" class="nav__logo">Le blog de Jobba</a>
+        <a href="index.html" class="nav__logo">Le blog de Jobba</a>
         <ul class="nav__items">
-            <li><a href="blog.php">Blog</a></li>
-            <li><a href="about.php">A propos</a></li>
-            <li><a href="services.php">Services</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <!--<li><a href="signin.php">Se connecter</a></li>-->
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">A propos</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!--<li><a href="signin.html">Se connecter</a></li>-->
             <li class="nav__profile">
                 <div class="avatar">
                     <img src="./assets/images/avatar1.jpg" alt="Un avatar">
                 </div>
                 <ul>
-                    <li><a href="dashboard.php">Dashboard</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
                     <li><a href="logout.php">Déconnexion</a></li>
                 </ul>
             </li>
@@ -45,90 +45,57 @@
     </div>
 </nav>
 <!--==============================END OF NAVBAR=========================================-->
-<section class="dashboard">
-    <div class="container dashboard__container">
-        <button id="show__sidebar-btn" class="sidebar__toggle"><i class="uil uil-angle-right-b"></i></button>
-        <button id="hide__sidebar-btn" class="sidebar__toggle"><i class="uil uil-angle-left-b"></i></button>
-        <aside>
-            <ul>
-                <li>
-                    <a href="add-post.php">
-                        <i class="uil uil-pen"></i>
-                        <h5>Ajouter un article</h5>
-                    </a>
-                </li>
-                <li>
-                    <a href="dashboard.php" class="active">
-                        <i class="uil uil-postcard"></i>
-                        <h5>Liste des articles</h5>
-                    </a>
-                </li>
-                <li>
-                    <a href="add-user.php">
-                        <i class="uil uil-user-plus"></i>
-                        <h5>Ajouter un utilisateur</h5>
-                    </a>
-                </li>
-                <li>
-                    <a href="manage-user.php">
-                        <i class="uil uil-users-alt"></i>
-                        <h5>Liste des utilisateurs</h5>
-                    </a>
-                </li>
-                <li>
-                    <a href="add-category.php">
-                        <i class="uil uil-edit"></i>
-                        <h5>Ajouter une catégorie</h5>
-                    </a>
-                </li>
-                <li>
-                    <a href="manage-category.php">
-                        <i class="uil uil-list-ul"></i>
-                        <h5>Liste des catégories</h5>
-                    </a>
-                </li>
-            </ul>
-        </aside>
-        <main>
-            <h2>Liste des articles</h2>
-            <table>
-                <thead>
-                <tr>
-                    <th>Titre</th>
-                    <th>Catégorie</th>
-                    <th>Modifier</th>
-                    <th>Supprimer</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>Un article</td>
-                    <td>Une catégorie</td>
-                    <td><a href="edit-post.php" class="btn sm">Modifier</a></td>
-                    <td><a href="delete-post.php" class="btn sm danger">Supprimer</a></td>
-                </tr>
-                <tr>
-                    <td>Un autre article</td>
-                    <td>Une autre catégorie</td>
-                    <td><a href="edit-post.php" class="btn sm">Modifier</a></td>
-                    <td><a href="delete-post.php" class="btn sm danger">Supprimer</a></td>
-                </tr>
-                <tr>
-                    <td>Un article mdrrr</td>
-                    <td>Une catégorie yoyoyo</td>
-                    <td><a href="edit-post.php" class="btn sm">Modifier</a></td>
-                    <td><a href="delete-post.php" class="btn sm danger">Supprimer</a></td>
-                </tr>
-                </tbody>
-            </table>
-        </main>
+
+<!--==============================POST=========================================-->
+<section class="singlepost">
+    <div class="container singlepost__container">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+        <div class="post__author">
+            <div class="post__author-avatar">
+                <img src="./assets/images/avatar7.jpg" alt="Avatar de l'auteur">
+            </div>
+            <div class="post__author-info">
+                <h5>Par : Jobbax</h5>
+                <small>Le 3 septembre 2022 - 17:49</small>
+            </div>
+        </div>
+        <div class="singlepost__thumbnail">
+            <img src="./assets/images/blog33.jpg" alt="Image du post">
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, atque dolor dolorum excepturi fugit
+            illo maiores minus placeat quis, rerum unde, vitae? Distinctio, hic, recusandae. Asperiores consequatur
+            debitis distinctio dolor error, harum illum impedit itaque magni, modi non nulla officiis optio praesentium
+            quaerat qui quo recusandae repellendus repudiandae sit soluta?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, atque dolor dolorum excepturi fugit
+            illo maiores minus placeat quis, rerum unde, vitae? Distinctio, hic, recusandae. Asperiores consequatur
+            debitis distinctio dolor error, harum illum impedit itaque magni, modi non nulla officiis optio praesentium
+            quaerat qui quo recusandae repellendus repudiandae sit soluta?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, atque dolor dolorum excepturi fugit
+            illo maiores minus placeat quis, rerum unde, vitae? Distinctio, hic, recusandae. Asperiores consequatur
+            debitis distinctio dolor error, harum illum impedit itaque magni, modi non nulla officiis optio praesentium
+            quaerat qui quo recusandae repellendus repudiandae sit soluta?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, atque dolor dolorum excepturi fugit
+            illo maiores minus placeat quis, rerum unde, vitae? Distinctio, hic, recusandae. Asperiores consequatur
+            debitis distinctio dolor error, harum illum impedit itaque magni, modi non nulla officiis optio praesentium
+            quaerat qui quo recusandae repellendus repudiandae sit soluta?
+        </p>
     </div>
 </section>
+<!--==============================END POST=========================================-->
+
 <!--==============================FOOTER=========================================-->
 <footer>
     <div class="footer__socials">
         <a href="https://www.instagram.com/el_eliohs/" target="_blank"><i class="uil uil-instagram"></i></i></a>
-        <a href="https://www.linkedin.com/in/elias-cardon-693a31a2/" target="_blank"><i class="uil uil-linkedin"></i></i></a>
+        <a href="https://www.linkedin.com/in/elias-cardon-693a31a2/" target="_blank"><i
+                    class="uil uil-linkedin"></i></i></a>
         <a href="https://github.com/elias-cardon" target="_blank"><i class="uil uil-github"></i></i></a>
     </div>
     <div class="container footer__container">
@@ -174,7 +141,9 @@
         </article>
     </div>
     <div class="footer__copyright">
-        <small>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Elias Cardon</small>
+        <small>Copyright &copy;
+            <script>document.write(new Date().getFullYear())</script>
+            Elias Cardon</small>
     </div>
 </footer>
 <!--==============================END FOOTER=========================================-->
